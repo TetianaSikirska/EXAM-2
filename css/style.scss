@@ -1,0 +1,203 @@
+body{
+font-family: 'Raleway', sans-serif;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.ba-menu{
+	max-width: 100%;
+	height: 70px;
+	background-color: #fff;
+	display: flex;
+  align-items: center;
+	padding: 0 100px 0 100px;
+
+	li{
+		display: inline-block;
+		list-style: none;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 20px;
+		text-decoration: underline;
+		margin-left: 50px;
+
+		&:hover {
+		color: #fff;
+		background-color: #fd5c08;
+		}
+	}
+}
+.ba-slider__info{
+	z-index: 2;
+	position: absolute;
+	color: #fff;
+	margin-left: 14%;
+	margin-top:30%;
+}
+.ba-slider{
+	width: 100%;
+	max-height: 800px;
+
+}
+.ba-prise{
+	height: 180px;
+	width: 1000px;
+	display: flex;
+	.ba-prise__left{
+	text-transform: uppercase;
+	margin-left: 100px;
+	margin-right: 20px;
+	h1{
+		font-size: 80px;
+		line-height: 0
+	}
+	h2{
+		font-size: 34px;
+		line-height: 0;
+	}
+	}
+	.ba-price__right{
+		margin-left: 20px;
+		p{
+			font-size: 15px;
+		}
+	}
+	h1{
+		color: #fd5c08;
+		text-transform: uppercase;
+	}
+	h2{
+		text-transform: uppercase;
+		font-weight: lighter;
+	}
+}
+.container{
+	background: url('../prise/World map.png');
+	width: 100%;
+	margin: 0 auto;
+	.ba-cityprices{
+		width: 1000px;
+		height: 789px;
+		margin-left: 100px;
+			.ba-cityprices__1{
+				display: flex;
+				flex-wrap: wrap;
+				.ba-cityprices__elem{
+					background-size: cover;
+					height: 390px;
+					width: 33.3%;
+				}
+				p{
+					color: #fff;
+					font-weight: bold;
+					font-size: 34px;
+					padding: 10px;
+				}
+			span{
+				padding: 10px;
+				color: #fff;
+				text-transform: uppercase;
+			}
+		}
+}
+}
+.ba-safari__info{
+	background: url('../slider2/Layer 19.png');
+	background-size: cover;
+	height: 947px;
+	color: #fff;
+	text-align: center;
+	padding-top: 100px;
+	h1{
+		font-size: 100px;
+		line-height: 0;
+		h2{
+			font-size: 38px;
+			h3{
+				font-size: 38px;
+			}
+		}
+	}
+}
+
+.ba-seefirst{
+	background: url('../img/Layer 18.png');
+	height: 300px;
+	text-align: center;
+	h1{
+		color: #fd5c08;
+		font-weight: bold;
+		font-size: 100px;
+		text-transform: uppercase;}
+		h3{
+			font-size: 34px;
+			font-weight: lighter;
+			text-transform: uppercase;
+		}
+
+}
+
+.ba-footer{
+	background-color: #fd5c08;
+	height: 210px;
+	color: #fff;
+	text-align: center;
+	padding-top: 25px;
+	li{
+		list-style: none;
+		display: inline-block;
+		padding: 20px;
+		i{
+			font-size: 18px;
+
+		}
+	}
+}
